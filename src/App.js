@@ -8,6 +8,10 @@ import Myname from "./Component/MyName";
 import Form from "./Component/Form";
 import Mycount from "./Component/Mycount";
 import Users from "./Component/Users";
+import Event from "./Component/Event";
+import Range from "./Component/Range";
+import Submit from "./Component/Submit";
+import InputFocus from "./Component/InputFocus";
 function App() {
   return (
     <div className="App">
@@ -21,6 +25,10 @@ function App() {
       <Form />
       <Mycount />
       <Users />
+      <Event />
+      <Range />
+      <Submit/>
+      <InputFocus/>
     </div>
   );
 }
