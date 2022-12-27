@@ -14,7 +14,7 @@ export default function MyForm4() {
         Enter your name:
         <input
           type="text"
-          alue={name}
+          value={name}
           onChange={(e) => setName(e.target.value)}
         />
       </label>
