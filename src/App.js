@@ -8,6 +8,7 @@ import FavoriteColor3 from "./useState/FavoriteColor3";
 import Car from "./useState/Car";
 import UpdateCar from "./useState/UpdateCar";
 import MyForm1 from "./React Forms/MyForm1";
+import MyForm2 from "./React Forms/MyForm2";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Car/>
       <UpdateCar/>
       <MyForm1/>
+      <MyForm2/>
     </div>
   );
 }
