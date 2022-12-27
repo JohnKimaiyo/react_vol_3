@@ -7,6 +7,7 @@ import FavoriteColor2 from "./useState/FavoriteColor2";
 import FavoriteColor3 from "./useState/FavoriteColor3";
 import Car from "./useState/Car";
 import UpdateCar from "./useState/UpdateCar";
+import MyForm1 from "./React Forms/MyForm1";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <FavoriteColor3/>
       <Car/>
       <UpdateCar/>
+      <MyForm1/>
     </div>
   );
 }
