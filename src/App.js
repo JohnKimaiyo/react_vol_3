@@ -9,17 +9,20 @@ import Car from "./useState/Car";
 import UpdateCar from "./useState/UpdateCar";
 import MyForm1 from "./React Forms/MyForm1";
 import MyForm2 from "./React Forms/MyForm2";
+
+import MyForm3 from "./React Forms/MyForm3";
 function App() {
   return (
     <div className="App">
       <ClickMe />
       <FavoriteColor1 />
-      <FavoriteColor2/>
-      <FavoriteColor3/>
-      <Car/>
-      <UpdateCar/>
-      <MyForm1/>
-      <MyForm2/>
+      <FavoriteColor2 />
+      <FavoriteColor3 />
+      <Car />
+      <UpdateCar />
+      <MyForm1 />
+      <MyForm2 />
+      <MyForm3 />
     </div>
   );
 }
