@@ -13,6 +13,7 @@ import MyForm2 from "./React Forms/MyForm2";
 import MyForm3 from "./React Forms/MyForm3";
 import MyForm4 from "./React Forms/MyForm4";
 import MyForm6 from "./React Forms/MyForm6";
+import MyForm5 from "./React Forms/MyForm5";
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
       <MyForm3 />
       <MyForm4/>
       <MyForm6/>
+      <MyForm5/>
     </div>
   );
 }

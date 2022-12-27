@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 
 export default function MyForm2() {
   const [name, setName] = useState("");
